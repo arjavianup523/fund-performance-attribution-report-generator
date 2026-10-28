@@ -1,0 +1,22 @@
+﻿# Python
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.venv/
+venv/
+
+# Local environment
+.env
+
+# Large source dataset: obtain it separately and place it in data/raw/
+data/raw/all_stocks_5yr.csv
+
+# Editor files
+.vscode/
+.idea/
+outputs/
+logs/
+*.db
+*.sqlite
+*.sqlite3
+*.xlsx
